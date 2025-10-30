@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=BBH+Sans+Bartle&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.logo {
+    height: auto;
+    width: 60px;
+    margin-left: 30px;
+    padding-top: 30px;
+}
+
+.bg {
+    height: 100%;
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1519638399535-1b036603ac77?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=1631);
+    color: white;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.name2 {
+    color: white;
+    font-size: 45px;
+    text-align: center;
+    font-family: BBH sans bartle;
+    padding-top: 140px;
+
+
+}
+
+.btnpar {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* .btn {
+    font-family: BBH sans bartle;
+    background-color: transparent;
+    border-radius: 25px;
+    height: 30px;
+    width: 200px;
+    text-decoration: solid;
+    border-color: ;
+    color: white;
+    position: relative;
+
+} */
+
+.btn {
+  font-family: BBH sans bartle;
+  background: rgba(255, 255, 255, 0.12); /* subtle transparent white */
+  backdrop-filter: blur(2px) saturate(230%); /* main glass effect */
+  border: 1px solid rgba(255, 255, 255, 0.50); /* glossy border */
+  border-radius: 25px;
+  height: 35px;
+  width: 200px;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+
+
+
+
+
+
