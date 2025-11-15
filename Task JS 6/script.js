@@ -21,3 +21,5 @@ btn.addEventListener('click', ()=>{
     console.log(char)
     screen.style.backgroundImage = `url(${arr[char]})`
 })
+
+// Done
