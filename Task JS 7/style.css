@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: #E8FDF6;
+    overflow: hidden;
+}
+
+main {
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+main div{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: 400;
+    border-radius: 50px;
+    height: 80px;
+    width: 250px;
+    background-color: #00C897;
+    color: white;
+    font-family: monospace;
+    border: 1px solid #00C897;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow: hidden;
+
+}
+
+p{
+    color: black;
+    font-family: monospace;
+    font-weight: 400;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    overflow: hidden;
+    
+}
+
